@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Footer = () => {
   return (
     <Container>
-      Footer
+      Footer - footer
     </Container>
   )
 }
