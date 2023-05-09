@@ -5,6 +5,7 @@ import { getFirestore, doc, getDoc } from "firebase/firestore";
 import { getStorage, ref, getDownloadURL } from "firebase/storage";
 
 import Video from './components/Video';
+import Footer from './layout/Footer/Footer'
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
   return (
     <div className="App">
       <Video  />
+      <Footer />
     </div>
   );
 }
