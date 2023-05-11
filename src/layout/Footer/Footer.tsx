@@ -2,12 +2,19 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Footer = () => {
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <Container>
-      <div>Footer </div> - <div> footer</div>
+      <div>Footer</div> - <div>footer</div>
+      <Button onClick={handleClick}>
+       ^
+      </Button>
     </Container>
-  )
-}
+  );
+};
 
 const Container = styled.div`
   display: flex;
@@ -18,4 +25,11 @@ const Container = styled.div`
   color: white;
 `;
 
-export default Footer
+const Button = styled.button`
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+`;
+
+export default Footer;
