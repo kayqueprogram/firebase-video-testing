@@ -26,7 +26,7 @@ const Container = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: transparent;
+  background-color: white;
   border: none;
   cursor: pointer;
   color: white;
