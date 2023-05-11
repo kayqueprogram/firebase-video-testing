@@ -4,14 +4,14 @@ import styled from 'styled-components';
 const Footer = () => {
   return (
     <Container>
-      Footer - footer
+      <div>Footer </div> - <div> footer</div>
     </Container>
   )
 }
 
 const Container = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 16px;
   background-color: rgb(1, 5, 33);
